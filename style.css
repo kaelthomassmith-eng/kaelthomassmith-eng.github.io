@@ -297,3 +297,22 @@ a:hover {
         font-size: 16px;
     }
 }
+
+.cv-link a {
+    display: block;
+    width: fit-content;
+
+    padding: 12px 18px;
+
+    color: #466B6B;
+    text-decoration: none;
+
+    background-color: transparent;
+
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.cv-link a:hover {
+    background-color: #E6EEEE;
+    color: #284848;
+}
