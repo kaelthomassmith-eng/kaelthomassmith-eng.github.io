@@ -21,3 +21,65 @@ h2 {
 a {
     color: #555;
 }
+
+.book-title {
+    font-family: Georgia, serif;
+    font-size: 42px;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 5px;
+}
+
+.book-subtitle {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.book {
+    display: flex;
+    gap: 50px;
+    align-items: flex-start;
+    max-width: 1000px;
+}
+
+.book-cover {
+    flex: 0 0 280px;
+}
+
+.book-cover img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.book-description {
+    flex: 1;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+@media (max-width: 700px) {
+
+    .book {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .book-cover {
+        width: 240px;
+        flex: none;
+    }
+
+    .book-title {
+        font-size: 32px;
+    }
+
+    .book-subtitle {
+        font-size: 21px;
+    }
+
+}
