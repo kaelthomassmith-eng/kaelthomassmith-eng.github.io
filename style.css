@@ -1,125 +1,173 @@
-/* ==============================
-   GENERAL SITE STYLING
-   ============================== */
+/* =========================================
+   MICHAEL THOMAS SMITH
+   Main Website Styles
+   ========================================= */
+
+
+/* =========================================
+   GENERAL PAGE
+   ========================================= */
 
 body {
-    background-color: #ffffff;
-    color: #222222;
-    font-family: Georgia, "Times New Roman", serif;
-    font-size: 18px;
-    line-height: 1.7;
+    background-color: #FCFBF8;
+    color: #252525;
 
-    max-width: 1100px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 17px;
+    line-height: 1.75;
+
+    max-width: 1120px;
     margin: 0 auto;
-    padding: 40px 40px 80px 40px;
+
+    padding: 42px 48px 90px 48px;
 }
 
 
-/* ==============================
+/* =========================================
    NAVIGATION
-   ============================== */
+   ========================================= */
 
 nav {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    margin-bottom: 60px;
-    padding-bottom: 15px;
-    border-bottom: 1px solid #dddddd;
+    font-size: 14px;
+
+    margin-bottom: 72px;
+    padding-bottom: 17px;
+
+    border-bottom: 1px solid #DDDDDD;
 }
 
 nav a {
-    color: #333333;
+    color: #444444;
     text-decoration: none;
-    margin: 0 8px;
-}
 
-nav a:first-child {
-    margin-left: 0;
+    margin-right: 16px;
+
+    transition: color 0.2s ease;
 }
 
 nav a:hover {
-    color: #777777;
-    text-decoration: underline;
+    color: #466B6B;
 }
 
 
-/* ==============================
+/* =========================================
    MAIN CONTENT
-   ============================== */
+   ========================================= */
 
 main {
-    max-width: 1000px;
+    max-width: 1050px;
 }
 
 h1 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 44px;
+    font-size: 48px;
     font-weight: normal;
-    line-height: 1.2;
+
+    line-height: 1.15;
+
     margin-top: 0;
     margin-bottom: 25px;
 }
 
 h2 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 28px;
+    font-size: 29px;
     font-weight: normal;
+
     line-height: 1.3;
-    margin-top: 45px;
+
+    margin-top: 52px;
     margin-bottom: 20px;
 }
 
 h3 {
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: normal;
 }
 
 p {
-    margin-bottom: 22px;
+    margin-top: 0;
+    margin-bottom: 24px;
 }
 
 
-/* ==============================
+/* =========================================
    LINKS
-   ============================== */
+   ========================================= */
 
 a {
-    color: #555555;
+    color: #466B6B;
 }
 
 a:hover {
-    color: #000000;
+    color: #284848;
 }
 
 
-/* ==============================
+/* =========================================
+   HOMEPAGE
+   ========================================= */
+
+.site-title {
+    font-size: 52px;
+    font-weight: normal;
+
+    line-height: 1.1;
+
+    margin-bottom: 14px;
+}
+
+.site-subtitle {
+    font-size: 21px;
+
+    color: #666666;
+
+    margin-bottom: 65px;
+}
+
+.home-introduction {
+    max-width: 760px;
+
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+
+/* =========================================
    BOOK PAGE
-   ============================== */
+   ========================================= */
 
 .book-title {
     font-size: 46px;
     font-weight: normal;
-    line-height: 1.15;
-    margin-top: 0;
-    margin-bottom: 8px;
+
+    line-height: 1.1;
+
+    max-width: 900px;
+
+    margin: 0 0 7px 0;
 }
 
 .book-subtitle {
     font-size: 27px;
-    font-weight: normal;
     font-style: italic;
-    line-height: 1.3;
-    margin-top: 0;
-    margin-bottom: 45px;
-    color: #555555;
+    font-weight: normal;
+
+    color: #666666;
+
+    margin: 0 0 48px 0;
 }
 
 .book {
     display: flex;
+
     align-items: flex-start;
-    gap: 55px;
-    max-width: 1000px;
+
+    gap: 62px;
+
+    max-width: 1050px;
 }
 
 .book-cover {
@@ -129,47 +177,98 @@ a:hover {
 .book-cover img {
     width: 100%;
     height: auto;
+
     display: block;
+
+    box-shadow: 0 5px 18px rgba(0, 0, 0, 0.13);
 }
 
 .book-description {
     flex: 1;
-    font-size: 18px;
-    line-height: 1.75;
+
+    font-size: 17px;
+    line-height: 1.8;
 }
 
 .book-description p {
     margin-top: 0;
-    margin-bottom: 22px;
+    margin-bottom: 23px;
 }
 
 
-/* ==============================
-   MOBILE / SMALL SCREENS
-   ============================== */
+/* =========================================
+   BOOK LINKS
+   ========================================= */
+
+.book-description a {
+    color: #466B6B;
+
+    text-decoration: none;
+
+    border-bottom: 1px solid #AFC0C0;
+}
+
+.book-description a:hover {
+    color: #284848;
+
+    border-bottom-color: #284848;
+}
+
+
+/* =========================================
+   SIMPLE SECTION RULE
+   ========================================= */
+
+.section-rule {
+    border: 0;
+    border-top: 1px solid #DDDDDD;
+
+    margin: 55px 0 45px 0;
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
 
 @media (max-width: 700px) {
 
     body {
-        padding: 25px 20px 50px 20px;
-        font-size: 17px;
+        font-size: 16px;
+
+        padding: 25px 20px 55px 20px;
     }
 
     nav {
         line-height: 2;
-        margin-bottom: 40px;
+
+        margin-bottom: 45px;
     }
 
     nav a {
-        margin: 0 5px;
+        margin-right: 10px;
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 38px;
     }
 
     h2 {
-        font-size: 25px;
+        font-size: 26px;
+    }
+
+    .site-title {
+        font-size: 40px;
+    }
+
+    .site-subtitle {
+        font-size: 19px;
+
+        margin-bottom: 45px;
+    }
+
+    .home-introduction {
+        font-size: 17px;
     }
 
     .book-title {
@@ -178,20 +277,23 @@ a:hover {
 
     .book-subtitle {
         font-size: 23px;
-        margin-bottom: 30px;
+
+        margin-bottom: 32px;
     }
 
     .book {
         flex-direction: column;
+
         gap: 30px;
     }
 
     .book-cover {
-        width: 240px;
+        width: 245px;
+
         flex: none;
     }
 
     .book-description {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
