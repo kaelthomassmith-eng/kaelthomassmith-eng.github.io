@@ -3,11 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Michael Thomas Smith</title>
+    <title>Poetry | Michael Thomas Smith</title>
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        .poetry-intro {
+            max-width: 800px;
+            margin-bottom: 2rem;
+        }
+
+        .poem-of-day {
+            margin: 2.5rem 0 3rem 0;
+            padding: 2rem;
+            border-left: 3px solid rgba(70, 110, 80, 0.45);
+            background: rgba(70, 110, 80, 0.05);
+        }
+
+        .poem-of-day h2 {
+            margin-top: 0;
+        }
+
+        .poem-of-day-title {
+            font-size: 1.5rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .poem-publication {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .poem-excerpt {
+            white-space: pre-line;
+            line-height: 1.7;
+            margin-bottom: 1rem;
+        }
+
+        .poem-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            text-decoration: none;
+        }
+
+        .poetry-controls {
+            margin: 2rem 0;
+        }
+
+        #poetry-search {
+            width: 100%;
+            max-width: 500px;
+            padding: 0.75rem;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .poetry-list {
+            margin-top: 2rem;
+        }
+
+        .poem-entry {
+            margin-bottom: 1.25rem;
+        }
+
+        .poem-entry a {
+            font-size: 1.1rem;
+        }
+
+        .poem-meta {
+            display: block;
+            font-size: 0.9rem;
+            color: #666;
+            margin-top: 0.2rem;
+        }
+
+        .no-results {
+            color: #777;
+            font-style: italic;
+        }
+    </style>
 </head>
 
 <body>
+
 <nav>
     <a href="index.html">Home</a> |
     <a href="about.html">About</a> |
@@ -19,20 +99,242 @@
     <a href="talks.html">Talks</a> |
     <a href="cv.html">CV</a>
 </nav>
-    
- <main>
 
-        <h1>Poetry</h1>
+<main>
 
-        <p>
-            Find Poetry Here.
-        </p>
+    <h1>Poetry</h1>
 
-     <footer class="site-footer">
-    <span>Michael Thomas Smith</span>
-    <span>Writer, scholar, and educator</span>
-</footer>
-    </main>
+    <p class="poetry-intro">
+        Nearly three hundred poems written and published over the course of my career.
+        The archive includes poems first published in literary journals and magazines,
+        as well as poems subsequently republished elsewhere.
+    </p>
+
+    <section class="poem-of-day">
+        <h2>Poem of the Day</h2>
+
+        <div id="poem-of-day-content">
+            Loading...
+        </div>
+    </section>
+
+    <section class="poetry-controls">
+        <input
+            type="text"
+            id="poetry-search"
+            placeholder="Search poems by title or publication..."
+            aria-label="Search poems"
+        >
+    </section>
+
+    <section class="poetry-list">
+        <h2>Archive</h2>
+        <div id="poem-list">
+            Loading poems...
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <span>Michael Thomas Smith</span>
+        <span>Writer, scholar, and educator</span>
+    </footer>
+
+</main>
+
+<script>
+fetch('poems.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Could not load poems.json');
+        }
+        return response.json();
+    })
+    .then(poems => {
+
+        const poemList = document.getElementById('poem-list');
+        const searchBox = document.getElementById('poetry-search');
+
+        /*
+         * The individual poem HTML files are in:
+         *
+         * poetry/
+         *
+         * Their filenames should match the slug stored in poems.json.
+         */
+
+        function poemUrl(poem) {
+            return 'poetry/' + poem.slug + '.html';
+        }
+
+        function publicationText(poem) {
+            if (!poem.publication || poem.publication.length === 0) {
+                return '';
+            }
+
+            return poem.publication.join(' ');
+        }
+
+        function renderList(filter = '') {
+
+            const search = filter.trim().toLowerCase();
+
+            const filtered = poems.filter(poem => {
+
+                const title = (poem.title || '').toLowerCase();
+                const publication = publicationText(poem).toLowerCase();
+
+                return title.includes(search) || publication.includes(search);
+            });
+
+            if (filtered.length === 0) {
+                poemList.innerHTML =
+                    '<p class="no-results">No poems found.</p>';
+                return;
+            }
+
+            /*
+             * Group poems alphabetically by title.
+             */
+
+            const groups = {};
+
+            filtered.forEach(poem => {
+
+                const firstLetter =
+                    (poem.title || '#')
+                        .trim()
+                        .charAt(0)
+                        .toUpperCase();
+
+                if (!groups[firstLetter]) {
+                    groups[firstLetter] = [];
+                }
+
+                groups[firstLetter].push(poem);
+            });
+
+            poemList.innerHTML = '';
+
+            Object.keys(groups)
+                .sort()
+                .forEach(letter => {
+
+                    const heading = document.createElement('h3');
+                    heading.textContent = letter;
+
+                    poemList.appendChild(heading);
+
+                    groups[letter].forEach(poem => {
+
+                        const entry = document.createElement('div');
+                        entry.className = 'poem-entry';
+
+                        const link = document.createElement('a');
+                        link.href = poemUrl(poem);
+                        link.textContent = poem.title;
+
+                        const meta = document.createElement('span');
+                        meta.className = 'poem-meta';
+
+                        if (publicationText(poem)) {
+                            meta.textContent = publicationText(poem);
+                        }
+
+                        entry.appendChild(link);
+                        entry.appendChild(meta);
+
+                        poemList.appendChild(entry);
+                    });
+                });
+        }
+
+        /*
+         * Pick a poem based on the calendar date.
+         * This means everyone sees the same "Poem of the Day"
+         * on a given day.
+         */
+
+        const today = new Date();
+
+        const dayNumber =
+            Math.floor(
+                (today - new Date(today.getFullYear(), 0, 0))
+                / 86400000
+            );
+
+        const poemOfDay = poems[dayNumber % poems.length];
+
+        const poemOfDayContent =
+            document.getElementById('poem-of-day-content');
+
+        poemOfDayContent.innerHTML = '';
+
+        const title = document.createElement('div');
+        title.className = 'poem-of-day-title';
+
+        const titleLink = document.createElement('a');
+        titleLink.href = poemUrl(poemOfDay);
+        titleLink.textContent = poemOfDay.title;
+
+        title.appendChild(titleLink);
+
+        const publication = document.createElement('div');
+        publication.className = 'poem-publication';
+        publication.textContent = publicationText(poemOfDay);
+
+        const excerpt = document.createElement('div');
+        excerpt.className = 'poem-excerpt';
+
+        /*
+         * Show the opening lines of the poem.
+         */
+
+        const body = Array.isArray(poemOfDay.body)
+            ? poemOfDay.body
+            : [];
+
+        excerpt.textContent =
+            body
+                .filter(line => line.trim() !== '')
+                .slice(0, 8)
+                .join('\n');
+
+        const readMore = document.createElement('a');
+        readMore.className = 'poem-link';
+        readMore.href = poemUrl(poemOfDay);
+        readMore.textContent = 'Read the poem →';
+
+        poemOfDayContent.appendChild(title);
+        poemOfDayContent.appendChild(publication);
+        poemOfDayContent.appendChild(excerpt);
+        poemOfDayContent.appendChild(readMore);
+
+        /*
+         * Initial archive.
+         */
+
+        renderList();
+
+        /*
+         * Live search.
+         */
+
+        searchBox.addEventListener('input', event => {
+            renderList(event.target.value);
+        });
+
+    })
+    .catch(error => {
+
+        console.error(error);
+
+        document.getElementById('poem-list').innerHTML =
+            '<p class="no-results">The poetry archive could not be loaded.</p>';
+
+        document.getElementById('poem-of-day-content').innerHTML =
+            '<p class="no-results">The Poem of the Day could not be loaded.</p>';
+    });
+</script>
 
 </body>
 </html>
