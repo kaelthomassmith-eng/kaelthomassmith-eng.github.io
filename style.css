@@ -9,8 +9,10 @@
    ========================================= */
 
 body {
-    background-color: #FCFBF8;
-    color: #252525;
+    background:
+        radial-gradient(circle at 8% 8%, rgba(70,107,107,0.10), transparent 34%),
+        radial-gradient(circle at 92% 78%, rgba(70,107,107,0.07), transparent 36%),
+        #FCFBF8;
 
     font-family: Georgia, "Times New Roman", serif;
     font-size: 17px;
@@ -40,11 +42,16 @@ nav {
 nav a {
     color: #444444;
     text-decoration: none;
-
     margin-right: 16px;
-
-    transition: color 0.2s ease;
+    border-bottom: 1px solid transparent;
+    transition: color 0.2s ease, border-color 0.2s ease;
 }
+
+nav a:hover {
+    color: #466B6B;
+    border-bottom-color: #AFC0C0;
+}
+
 
 nav a:hover {
     color: #466B6B;
