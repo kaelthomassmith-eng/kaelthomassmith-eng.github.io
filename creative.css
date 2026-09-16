@@ -1,5 +1,25 @@
 /* CREATIVE PAGES — works alongside the site's existing style.css */
-.creative-page { max-width: 1100px; }
+.creative-page {
+    max-width: 1100px;
+    position: relative;
+}
+
+.creative-page::before {
+    content: "";
+    position: absolute;
+    top: -120px;
+    left: -180px;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(
+        circle,
+        rgba(70,107,107,0.08) 0%,
+        rgba(70,107,107,0.035) 38%,
+        transparent 72%
+    );
+    pointer-events: none;
+    z-index: -1;
+}
 .creative-header { max-width: 800px; margin-bottom: 70px; }
 .creative-eyebrow {
     font-family: Arial, Helvetica, sans-serif;
@@ -83,4 +103,25 @@
     .creative-card, .creative-card.featured-card { grid-template-columns: 1fr; gap: 18px; }
     .creative-image { aspect-ratio: 16 / 10; }
     .featured-card h2, .creative-card h2 { font-size: 27px; }
+
+
+    .site-footer {
+    margin-top: 110px;
+    padding-top: 20px;
+    border-top: 1px solid #DDDDDD;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #888888;
+    letter-spacing: .02em;
+}
+
+@media (max-width: 700px) {
+    .site-footer {
+        flex-direction: column;
+        gap: 6px;
+    }
+}
 }
