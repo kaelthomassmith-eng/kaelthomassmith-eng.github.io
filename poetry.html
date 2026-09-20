@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="poetry-spacing.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poetry | Michael Thomas Smith</title>
@@ -26,13 +25,18 @@
 
         .poem-of-day-title {
             font-size: 1.5rem;
-            margin-bottom: 0.25rem;
+            margin-bottom: 0.45rem;
         }
 
         .poem-publication {
             font-size: 0.9rem;
             color: #666;
-            margin-bottom: 1rem;
+            margin-bottom: 1.25rem;
+            line-height: 1.6;
+        }
+
+        .publication-line {
+            display: block;
         }
 
         .poem-excerpt {
@@ -65,8 +69,25 @@
             margin-top: 2rem;
         }
 
+        /* Give each alphabetical section more breathing room.
+           Every letter after the first gets a subtle divider line. */
+        .archive-letter {
+            font-size: 1.35rem;
+            font-weight: normal;
+            margin-top: 2.6rem;
+            margin-bottom: 1.15rem;
+            padding-top: 1.25rem;
+            border-top: 1px solid rgba(70, 110, 80, 0.22);
+        }
+
+        .archive-letter.first-letter {
+            margin-top: 1.2rem;
+            padding-top: 0;
+            border-top: none;
+        }
+
         .poem-entry {
-            margin-bottom: 1.25rem;
+            margin-bottom: 1.65rem;
         }
 
         .poem-entry a {
@@ -77,7 +98,8 @@
             display: block;
             font-size: 0.9rem;
             color: #666;
-            margin-top: 0.2rem;
+            margin-top: 0.35rem;
+            line-height: 1.6;
         }
 
         .no-results {
@@ -86,9 +108,9 @@
         }
     </style>
 </head>
-    
-<script src="publication-lines.js"></script>
+
 <body>
+
 <nav>
     <a href="index.html">Home</a> |
     <a href="about.html">About</a> |
@@ -155,24 +177,38 @@ fetch('poems.json')
         const poemList = document.getElementById('poem-list');
         const searchBox = document.getElementById('poetry-search');
 
-        /*
-         * The individual poem HTML files are in:
-         *
-         * poetry/
-         *
-         * Their filenames should match the slug stored in poems.json.
-         */
-
         function poemUrl(poem) {
             return 'poetry/' + poem.slug + '.html';
         }
 
+        /*
+         * Keep publication entries separate.
+         * This means:
+         * *Published in X in 2018
+         * *Republished in Y in 2026
+         * appear on two separate lines.
+         */
         function publicationText(poem) {
             if (!poem.publication || poem.publication.length === 0) {
                 return '';
             }
 
             return poem.publication.join(' ');
+        }
+
+        function appendPublicationLines(parent, poem) {
+            const publication = poem.publication || [];
+
+            if (publication.length === 0) {
+                return;
+            }
+
+            publication.forEach(item => {
+                const line = document.createElement('span');
+                line.className = 'publication-line';
+                line.textContent = item;
+                parent.appendChild(line);
+            });
         }
 
         function renderList(filter = '') {
@@ -193,10 +229,6 @@ fetch('poems.json')
                 return;
             }
 
-            /*
-             * Group poems alphabetically by title.
-             */
-
             const groups = {};
 
             filtered.forEach(poem => {
@@ -216,45 +248,47 @@ fetch('poems.json')
 
             poemList.innerHTML = '';
 
-            Object.keys(groups)
-                .sort()
-                .forEach(letter => {
+            const letters = Object.keys(groups).sort();
 
-                    const heading = document.createElement('h3');
-                    heading.textContent = letter;
+            letters.forEach((letter, index) => {
 
-                    poemList.appendChild(heading);
+                const heading = document.createElement('h3');
+                heading.className = 'archive-letter';
 
-                    groups[letter].forEach(poem => {
+                if (index === 0) {
+                    heading.classList.add('first-letter');
+                }
 
-                        const entry = document.createElement('div');
-                        entry.className = 'poem-entry';
+                heading.textContent = letter;
 
-                        const link = document.createElement('a');
-                        link.href = poemUrl(poem);
-                        link.textContent = poem.title;
+                poemList.appendChild(heading);
 
-                        const meta = document.createElement('span');
-                        meta.className = 'poem-meta';
+                groups[letter].forEach(poem => {
 
-                        if (publicationText(poem)) {
-                            meta.textContent = publicationText(poem);
-                        }
+                    const entry = document.createElement('div');
+                    entry.className = 'poem-entry';
 
-                        entry.appendChild(link);
-                        entry.appendChild(meta);
+                    const link = document.createElement('a');
+                    link.href = poemUrl(poem);
+                    link.textContent = poem.title;
 
-                        poemList.appendChild(entry);
-                    });
+                    const meta = document.createElement('div');
+                    meta.className = 'poem-meta';
+
+                    appendPublicationLines(meta, poem);
+
+                    entry.appendChild(link);
+                    entry.appendChild(meta);
+
+                    poemList.appendChild(entry);
                 });
+            });
         }
 
         /*
          * Pick a poem based on the calendar date.
-         * This means everyone sees the same "Poem of the Day"
-         * on a given day.
+         * Everyone sees the same Poem of the Day on a given day.
          */
-
         const today = new Date();
 
         const dayNumber =
@@ -281,14 +315,10 @@ fetch('poems.json')
 
         const publication = document.createElement('div');
         publication.className = 'poem-publication';
-        publication.textContent = publicationText(poemOfDay);
+        appendPublicationLines(publication, poemOfDay);
 
         const excerpt = document.createElement('div');
         excerpt.className = 'poem-excerpt';
-
-        /*
-         * Show the opening lines of the poem.
-         */
 
         const body = Array.isArray(poemOfDay.body)
             ? poemOfDay.body
@@ -310,15 +340,7 @@ fetch('poems.json')
         poemOfDayContent.appendChild(excerpt);
         poemOfDayContent.appendChild(readMore);
 
-        /*
-         * Initial archive.
-         */
-
         renderList();
-
-        /*
-         * Live search.
-         */
 
         searchBox.addEventListener('input', event => {
             renderList(event.target.value);
