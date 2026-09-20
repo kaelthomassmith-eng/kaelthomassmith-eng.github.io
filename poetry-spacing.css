@@ -1,0 +1,36 @@
+/* Poetry page spacing updates
+   This file is intentionally separate from style.css so the changes affect
+   the poetry archive without changing the rest of the site.
+*/
+
+/* Give the A / B / C / ... section headings more breathing room. */
+#archive > h2,
+#archive > h3,
+.letter-heading,
+.alphabet-letter,
+.archive-letter {
+    margin-top: 3.2rem !important;
+    margin-bottom: 1.45rem !important;
+    padding-top: 0.35rem;
+    line-height: 1.1;
+}
+
+/* Don't add the extra top gap before the very first archive heading. */
+#archive > h2:first-child,
+#archive > h3:first-child,
+.letter-heading:first-child,
+.alphabet-letter:first-child,
+.archive-letter:first-child {
+    margin-top: 0 !important;
+}
+
+/* Publication information gets a little more vertical breathing room. */
+.meta {
+    line-height: 1.7;
+    margin-bottom: 1.6rem;
+}
+
+/* Make explicit publication-line breaks look intentional rather than cramped. */
+.meta br {
+    line-height: 1.7;
+}
