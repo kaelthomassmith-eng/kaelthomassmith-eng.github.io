@@ -180,7 +180,7 @@
     "number": 5,
     "title": "A Friend of Mine",
     "publication": [
-      "*Published in Anima in 2020 / *Republished in Local Train Magazine, possibly 2026?"
+      "*Published in Anima in 2020 / *Republished in Local Train Magazine, possibly 2026? (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -474,7 +474,7 @@
     "number": 15,
     "title": "ADHD",
     "publication": [
-      "*published in Euphemism around 2018",
+      "*published in Euphemism around 2018 (date unverified).",
       "*republished in Galway Review in 2026."
     ],
     "online_url": "",
@@ -636,7 +636,7 @@
     "number": 19,
     "title": "Afterword: Or, the Amateur Poet",
     "publication": [
-      "*published in Adelaide around 2018"
+      "*published in Adelaide around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -980,7 +980,7 @@
     "number": 30,
     "title": "Bakku-Shan",
     "publication": [
-      "*published in Evening Street Press around 2018.",
+      "*published in Evening Street Press around 2018 (date unverified).",
       "*republished in Galway Review in 2026."
     ],
     "online_url": "",
@@ -1482,7 +1482,7 @@
     "number": 44,
     "title": "Chapter 2",
     "publication": [
-      "*Published in HALIBUT around 2018",
+      "*Published in HALIBUT around 2018 (date unverified).",
       "*Published also by Ink Pantry 2018"
     ],
     "online_url": "",
@@ -1656,7 +1656,7 @@
     "title": "City Lights *There are 574 total words in the intertitles of Chaplin’s magnum opus City Lights. This homage poem is constructed from those words alone.",
     "publication": [
       "*Published in UnLost in 2018",
-      "*Republished in Impspired somewhere around 2018?"
+      "*Republished in Impspired somewhere around 2018? (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -1758,7 +1758,7 @@
     "title": "Old Man at the Café Or Coffee (a cover of Jacques Prévert)",
     "publication": [
       "*Published in HCE Review in 2018.",
-      "*Republished in Yuang Yang somewhere around 2020"
+      "*Republished in Yuang Yang somewhere around 2020 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -2005,7 +2005,7 @@
     "title": "Copy of a whore",
     "publication": [
       "*Published in Alpha Female in 2018",
-      "*Republished in Down in the Dirt around 2018?"
+      "*Republished in Down in the Dirt around 2018? (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -2227,7 +2227,7 @@
     "title": "Cycles",
     "publication": [
       "*Published in Spank the Carp in 2018",
-      "*Republished in Academy of the Heart and Mind somewhere around 2018",
+      "*Republished in Academy of the Heart and Mind somewhere around 2018 (date unverified).",
       "*Republished in Ginosko in 2018"
     ],
     "online_url": "",
@@ -2513,7 +2513,41 @@
     "online_url": "",
     "journal_url": "",
     "slug": "071-071-depression-1",
-    "body": [],
+    "body": [
+      "When everyone else",
+      "turns their back on you,",
+      "breaking words that ring true,",
+      "I’ll hold your hand.",
+      "I’ll go with you.",
+      "When the rest of them",
+      "pretend again",
+      "to be a-kin,",
+      "I’ll go with you; when",
+      "being itself is yet a sin",
+      "I’ll go with you",
+      "be a constant friend.",
+      "Lay your head on me,",
+      "from the inside out.",
+      "I’ll be a pillow;",
+      "you be the freight.",
+      "Stay with me as you",
+      "hit the ground, while they say",
+      "gravity’s just a habit",
+      "you should break",
+      "Down. I’ll be with you --",
+      "Always, and again.",
+      "I’ll stay the night,",
+      "and act the gin.",
+      "Give to you, another",
+      "expression to read aloud,",
+      "thinking maybe -- maybe",
+      "they’ll connect with your face.",
+      "But if they don’t",
+      "I’ll be around.  I never",
+      "left.  I’m by your side.",
+      "I’ll remind you again --",
+      "Depression"
+    ],
     "title_position": "bottom",
     "footnotes": []
   },
@@ -2994,7 +3028,7 @@
     "title": "Do You Remember God?",
     "publication": [
       "*published in Visions with Voices in 2014-2019?",
-      "*republished in Time of Singing much later, around 2026?"
+      "*republished in Time of Singing much later, around 2026? (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -3099,7 +3133,7 @@
     "number": 89,
     "title": "e.e. cummings love poem",
     "publication": [
-      "*Published in Zombie Logic Review around 2013"
+      "*Published in Zombie Logic Review around 2013 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -3132,8 +3166,8 @@
     "number": 90,
     "title": "E T R A H",
     "publication": [
-      "*Published in Fine Lines in 2018 or so",
-      "*Republished in EgoHobia around this time too"
+      "*Published in Fine Lines in 2018 or so (date unverified).",
+      "*Republished in EgoHobia around this time too (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -3167,7 +3201,7 @@
     "title": "Eclipse",
     "publication": [
       "*Published in HALIBUT in 2018",
-      "*Republished in Ink Pantry around 2018"
+      "*Republished in Ink Pantry around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -3189,7 +3223,7 @@
     "title": "Else",
     "publication": [
       "*Published in Knot Magazine in 2018",
-      "*Republished in Hamline Lit around 2018"
+      "*Republished in Hamline Lit around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -3243,7 +3277,7 @@
     "title": "Emily Dickinson’s Dashes",
     "publication": [
       "*Published in Vox Poetrica in 2017",
-      "*Republished in The Lake around this time",
+      "*Republished in The Lake around this time (date unverified).",
       "*Republished in Galway Review in 2026"
     ],
     "online_url": "",
@@ -3438,8 +3472,10 @@
   },
   {
     "number": 101,
-    "title": "Femme Fatale (original)\n*Not published but the original version",
-    "publication": [],
+    "title": "Femme Fatale (original)",
+    "publication": [
+      "*Not published but the original version"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "101-101-femme-fatale-original",
@@ -3509,7 +3545,7 @@
     "number": 102,
     "title": "Film",
     "publication": [
-      "*Published in Contrapuntos around 2013-2017",
+      "*Published in Contrapuntos around 2013-2017 (date unverified).",
       "*Republished in Ginosko in 2026"
     ],
     "online_url": "",
@@ -3907,7 +3943,7 @@
     "title": "Gunshot romance",
     "publication": [
       "*Published in Artvilla, poetry life and times in 2018",
-      "*Republished in Ink Pantry around 2018"
+      "*Republished in Ink Pantry around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -3924,13 +3960,14 @@
   },
   {
     "number": 114,
-    "title": "(Published Asahi, Oct 2011)",
-    "publication": [],
+    "title": "A full moon just ate",
+    "publication": [
+      "Asahi, Oct 2011 (exact day unverified)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "114-114-published-asahi-oct-2011-a-full-moon-just-ate-all-of-the-sun-s-light-a",
     "body": [
-      "(Published Asahi, Oct 2011)",
       "A full moon just ate",
       "All of the sun’s light, and left",
       "A clean, empty plate."
@@ -3940,13 +3977,15 @@
   },
   {
     "number": 115,
-    "title": "(Published Asahi, Issue 5):",
-    "publication": [],
+    "title": "A pinhole of light",
+    "publication": [
+      "Asahi, Issue 5 (date unverified)",
+      "Also filed in Haiku Journal (see #127)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "115-115-published-asahi-issue-5-a-pinhole-of-light-through-a-forest-canopy-cam",
     "body": [
-      "(Published Asahi, Issue 5):",
       "A pinhole of light",
       "Through a forest canopy:",
       "Camera obscura"
@@ -3958,7 +3997,8 @@
     "number": 116,
     "title": "Smell of frankincense",
     "publication": [
-      "Published Asahi Network (May 3rd, 2013)"
+      "Asahi Network, 3 May 2013 (author's record; not independently verified)",
+      "Variant text also filed as #117 — one haiku, two variants under one publication line"
     ],
     "online_url": "",
     "journal_url": "",
@@ -3975,7 +4015,7 @@
     "number": 117,
     "title": "Smell of Frankincense",
     "publication": [
-      "Published Asahi Network…"
+      "Asahi Network, 3 May 2013 (author's record; not independently verified) — variant of #116"
     ],
     "online_url": "",
     "journal_url": "",
@@ -3992,7 +4032,7 @@
     "number": 118,
     "title": "Swirl a glass",
     "publication": [
-      "Published Asahi Network (Dec 2, 2011)"
+      "Asahi Network, 2 Dec 2011 (author's record; not independently verified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4009,7 +4049,7 @@
     "number": 119,
     "title": "Perfuming my brush",
     "publication": [
-      "Published in Asahi Network Feb 17, 2012:"
+      "Asahi Network, 17 Feb 2012 (author's record; not independently verified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4026,7 +4066,7 @@
     "number": 120,
     "title": "Dust on a chalkboard -",
     "publication": [
-      "Published in Asahi Network (April 19/20th, 2012)"
+      "Asahi Network, April 19/20th, 2012 (as given; do not resolve to one day; not independently verified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4043,7 +4083,7 @@
     "number": 121,
     "title": "Madness in mid-March",
     "publication": [
-      "Published in Asahi Network (March 15, 2013)"
+      "Asahi Network, 15 March 2013 (author's record; not independently verified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4051,8 +4091,7 @@
     "body": [
       "Madness in mid-March",
       "Snowstorm with a’ bad attitude.",
-      "Et tu Plouton?",
-      "Haikus Published in Children Churches, and Dadies in 2020:"
+      "Et tu Plouton?"
     ],
     "title_position": "top",
     "footnotes": []
@@ -4060,9 +4099,11 @@
   {
     "number": 122,
     "title": "Untitled (clear)",
-    "publication": [],
+    "publication": [
+      "Children, Churches and Daddies (cc&d), v304, December 2020 ('Reptile Lust' issue; collected in Roll the Bones, Scars Publications) — exact day unverified"
+    ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "https://w.scars.tv/2020September-December-issue-collection-book/Roll_the_Bones.htm",
     "slug": "122-122-untitled-clear-two-loafers-drip-slosh-forming-a-clear-puddle-on-a-tata",
     "body": [
       "Untitled (clear)\n",
@@ -4078,9 +4119,11 @@
   {
     "number": 123,
     "title": "Untitled (blush)",
-    "publication": [],
+    "publication": [
+      "Children, Churches and Daddies (cc&d), v304, December 2020 ('Reptile Lust' issue; collected in Roll the Bones, Scars Publications) — exact day unverified"
+    ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "https://w.scars.tv/2020September-December-issue-collection-book/Roll_the_Bones.htm",
     "slug": "123-123-untitled-blush-the-sun-s-alarm-beeps-too-late-and-the-girlish-trees-al",
     "body": [
       "\nUntitled (blush)\n",
@@ -4095,9 +4138,11 @@
   {
     "number": 124,
     "title": "Untitled (goddess)",
-    "publication": [],
+    "publication": [
+      "Children, Churches and Daddies (cc&d), v304, December 2020 ('Reptile Lust' issue; collected in Roll the Bones, Scars Publications) — exact day unverified"
+    ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "https://w.scars.tv/2020September-December-issue-collection-book/Roll_the_Bones.htm",
     "slug": "124-124-untitled-goddess-only-a-goddess-can-count-all-of-the-bubbles-of-a-hot-",
     "body": [
       "\nUntitled (goddess)\n",
@@ -4111,9 +4156,11 @@
   {
     "number": 125,
     "title": "Untitled (thirsty)",
-    "publication": [],
+    "publication": [
+      "Children, Churches and Daddies (cc&d), v304, December 2020 ('Reptile Lust' issue; collected in Roll the Bones, Scars Publications) — exact day unverified"
+    ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "https://w.scars.tv/2020September-December-issue-collection-book/Roll_the_Bones.htm",
     "slug": "125-125-untitled-thirsty-a-rain-of-tadpoles-down-from-a-white-lily-pad-waters-",
     "body": [
       "Untitled (thirsty)\n",
@@ -4128,7 +4175,7 @@
     "number": 126,
     "title": "As I write this line",
     "publication": [
-      "HAIKUS PUBLISHED IN HAIKU JOURNAL:"
+      "Haiku Journal (author's record; date unverified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4146,7 +4193,9 @@
   {
     "number": 127,
     "title": "A pinhole of light",
-    "publication": [],
+    "publication": [
+      "Haiku Journal (author's record; date unverified) — same haiku as #115 (Asahi, Issue 5)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "127-127-a-pinhole-of-light-through-a-forest-canopy-camera-obscura",
@@ -4162,7 +4211,9 @@
   {
     "number": 128,
     "title": "Counting the orange peels",
-    "publication": [],
+    "publication": [
+      "Haiku Journal (author's record; publication date unverified; author's file notes June 2018)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "128-128-counting-the-orange-peels-piled-upon-my-dirty-desk-vacation-ended-june",
@@ -4179,7 +4230,7 @@
     "number": 129,
     "title": "I called her my Rose,",
     "publication": [
-      "Haiku’s Published in Haiku Universe in 2018:"
+      "Haiku Universe, 2018 (exact date unverified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4196,10 +4247,11 @@
     "number": 130,
     "title": "Peeking at new love",
     "publication": [
-      "Haiku’s Published in The Bamboo Hut"
+      "The Bamboo Hut, No. 2 (2020) — exact day unverified",
+      "Accepted March 2020 (acceptance, not the issue date)"
     ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "http://thebamboohut.weebly.com/number-2-2020.html",
     "slug": "130-130-haiku-s-published-in-the-bamboo-hut-peeking-at-new-love-a-green-clock-",
     "body": [
       "Peeking at new love",
@@ -4212,9 +4264,12 @@
   {
     "number": 131,
     "title": "A flower blossoms",
-    "publication": [],
+    "publication": [
+      "The Bamboo Hut, No. 2 (2020) — exact day unverified",
+      "Accepted March 2020 (acceptance, not the issue date)"
+    ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "http://thebamboohut.weebly.com/number-2-2020.html",
     "slug": "131-131-a-flower-blossoms-like-a-basquiat-work-only-the-edges-are-soft",
     "body": [
       "A flower blossoms",
@@ -4228,12 +4283,17 @@
     "number": 132,
     "title": "Writing a haiku: Images of my teacher Erasing the board",
     "publication": [
-      "Accepted March 2020"
+      "The Bamboo Hut, No. 2 (2020) — exact day unverified",
+      "Accepted March 2020 (acceptance, not the issue date)"
     ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "http://thebamboohut.weebly.com/number-2-2020.html",
     "slug": "132-132-writing-a-haiku-images-of-my-teacher-erasing-the-board-accepted-march-",
-    "body": [],
+    "body": [
+      "Writing a haiku:",
+      "Images of my teacher",
+      "Erasing the board"
+    ],
     "title_position": "top",
     "footnotes": []
   },
@@ -4241,7 +4301,7 @@
     "number": 133,
     "title": "A tarnished mirror,",
     "publication": [
-      "Haiku’s Published in Three Line Poetry"
+      "Three Line Poetry (accepted June 2018; publication date unverified)"
     ],
     "online_url": "",
     "journal_url": "",
@@ -4366,7 +4426,7 @@
     "title": "He Said, She Said: A Conversation in a 98 Jeep",
     "publication": [
       "*Published in Knot Magazine in 2018.",
-      "*Republished in Hamline in 2026 (I think)."
+      "*Republished in Hamline in 2026 (I think) (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -4500,7 +4560,73 @@
     "online_url": "",
     "journal_url": "",
     "slug": "141-141-hippie-girl-note-to-chatgpt-this-is-the-attached-sheet",
-    "body": [],
+    "body": [
+      "Hippie Girl;",
+      "Or, the Folk Song of Winnie Winters",
+      "(TRIANGLE)",
+      "There’s ten ‘hers’ for every ‘herself,’",
+      "in a T-shirt which reads:",
+      "“Art is the way in which you break the rules.”",
+      "But give me dialogue without quotation marks.",
+      "The eyes are not blind to the violence; they are blank.",
+      "(STAR)",
+      "Clothes so tight they seem to be holding her together:",
+      "where to put ideas if you don’t have a sleeve though?",
+      "The subtlety of her words let you grok a feeling,",
+      "making them shy children in the modesty of stock.",
+      "(SQUATRE)",
+      "She’s the heaviest thing in the sky.",
+      "(COMPLEX)",
+      "“You’re not properly outraged enough,”",
+      "So says an angle giving me vibes,",
+      "like deep tracks playing into the cerebral cortex.",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "Like a flower of infinite petals,",
+      "the child of a tie-dyed mind,",
+      "so hep in the ways of change --",
+      "So is she,",
+      "born amongst a canvas of night",
+      "wearing her hair like a painting. To…",
+      "…Be",
+      "‘tween lambs and shepherds.",
+      "She lives in the pin of an eye,",
+      "feasting on intellectual violence",
+      "that no one can deny.",
+      "Hippie on, woman; my love,",
+      "my life.",
+      "Wicked Woman;",
+      "Or, there’s nothing else",
+      "(TRIANGLE)",
+      "In which history’s witchy condemnation reconstitutes itself as a defense --",
+      "praise to this is like a dieted ballast,",
+      "at once holy and sadistic – like Sade",
+      "should he spoke directly.",
+      "(STAR)",
+      "Her voice is filled with oil,",
+      "squatting in a room in my ear,",
+      "and I didn’t know if I could ever",
+      "leave there.",
+      "(SQUATRE)",
+      "Wish her mind had a snooze button…",
+      "while in these sleeping bags hung on long tree limbs",
+      "to bitter winds and worse feelings.",
+      "(COMPLEX)",
+      "She has",
+      "all the side effects and none of the benefits.",
+      "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+      "Like a tigress,",
+      "chasing us while we ride on",
+      "wooden horses on a ground so rough.",
+      "Yet she moves with a lightness, an airiness",
+      "from bottled storms and like stuff.",
+      "A lawyer in pajamas or clothes from the day before,",
+      "she’s the Pallas",
+      "to every woman before,",
+      "pounding drums",
+      "with nature’s drunkenness.",
+      "Her beauty’s lethal, and her words",
+      "acrobatic."
+    ],
     "title_position": "top",
     "footnotes": []
   },
@@ -4757,7 +4883,7 @@
     "title": "I Think I Typed a Ghazal Up",
     "publication": [
       "*Published in Ghazal Page in 2018",
-      "*Republished in Home Planet News Online around 2018"
+      "*Republished in Home Planet News Online around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -4806,7 +4932,7 @@
     "number": 151,
     "title": "I Write Poems by Ear",
     "publication": [
-      "*Published in Adelaide in 2013-2018 (I think 2018)."
+      "*Published in Adelaide in 2013-2018 (I think 2018) (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -4877,8 +5003,10 @@
   },
   {
     "number": 153,
-    "title": "In My Bedroom\n*Published in Literary Yard in 2019",
-    "publication": [],
+    "title": "In My Bedroom",
+    "publication": [
+      "*Published in Literary Yard in 2019 (exact date unverified)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "153-153-in-my-bedroom",
@@ -5161,7 +5289,7 @@
     "title": "Kindness",
     "publication": [
       "*Published in Artvilla, poetry life and times in 2019.",
-      "*Republished in Ink Pantry around 2019."
+      "*Republished in Ink Pantry around 2019 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -5590,8 +5718,10 @@
   },
   {
     "number": 173,
-    "title": "Lop-Sided Pyramid\n*Published in Zombie Logic Review 2013-2018",
-    "publication": [],
+    "title": "Lop-Sided Pyramid",
+    "publication": [
+      "*Published in Zombie Logic Review 2013-2018 (range as given; date unverified)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "173-173-lop-sided-pyramid",
@@ -5973,10 +6103,10 @@
     "number": 184,
     "title": "Mojito",
     "publication": [
-      "*Published in Dual Coast in 2018"
+      "*Published in Dual Coast in 2018 (exact date unverified)"
     ],
-    "online_url": "",
-    "journal_url": "",
+    "online_url": "https://dualcoastmagazine.com/?p=2562",
+    "journal_url": "https://dualcoastmagazine.com/?p=2562",
     "slug": "184-184-mojito",
     "body": [
       "The sun’s fingers clenched the land",
@@ -6011,7 +6141,7 @@
     "number": 185,
     "title": "Moth to Light",
     "publication": [
-      "*Published in Internet Void in 2020 / Republished in 100 subtexts around 2020"
+      "*Published in Internet Void in 2020 / Republished in 100 subtexts around 2020 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6212,7 +6342,7 @@
     "number": 191,
     "title": "Nauseas",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018"
+      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6265,7 +6395,7 @@
     "number": 193,
     "title": "Notes on a Poem",
     "publication": [
-      "*Published in Modern Literature in 2018. / Republished in Agony Opera around 2018."
+      "*Published in Modern Literature in 2018. / Republished in Agony Opera around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6308,8 +6438,10 @@
   },
   {
     "number": 194,
-    "title": "Nothing but a Fancy\n*Published in Ithaca in 2016",
-    "publication": [],
+    "title": "Nothing but a Fancy",
+    "publication": [
+      "*Published in Ithaca in 2016 (exact date unverified)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "194-194-nothing-but-a-fancy",
@@ -6978,7 +7110,7 @@
     "number": 214,
     "title": "Read by Anonymous",
     "publication": [
-      "*Published in 100 subtexts, possibly 2026, possibly as far back as 2018"
+      "*Published in 100 subtexts, possibly 2026, possibly as far back as 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -7169,7 +7301,7 @@
     "number": 219,
     "title": "Run Up to Tomorrow’s Hags (On Poverty)",
     "publication": [
-      "*Published in 100 subtexts in 2019-2026 (I think 2019)"
+      "*Published in 100 subtexts in 2019-2026 (I think 2019) (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -7194,7 +7326,7 @@
     "number": 220,
     "title": "Runed",
     "publication": [
-      "*Published in 100 subtexts in 2019-2026 (I think 2020)"
+      "*Published in 100 subtexts in 2019-2026 (I think 2020) (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -7955,7 +8087,7 @@
     "number": 241,
     "title": "‘Teh’",
     "publication": [
-      "*Published in WINK in 2018 / Republished in The Lake around 2018 / Republished in Galway Review in 2026"
+      "*Published in WINK in 2018 / Republished in The Lake around 2018 / Republished in Galway Review in 2026 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -8405,7 +8537,7 @@
     "number": 251,
     "title": "The Mystery of Orpheus",
     "publication": [
-      "*Published in aois21 in 2016 (I think)"
+      "*Published in aois21 in 2016 (I think) (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -8521,7 +8653,7 @@
     "number": 255,
     "title": "This is not a poem II",
     "publication": [
-      "*Published in Modern Literature in 2018 / Republished in Agony Opera in around 2018"
+      "*Published in Modern Literature in 2018 / Republished in Agony Opera in around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -8892,8 +9024,10 @@
   },
   {
     "number": 266,
-    "title": "Uncle Martin’s Thrift and Discount\n*Published in Adelaide in 2012-1017",
-    "publication": [],
+    "title": "Uncle Martin’s Thrift and Discount",
+    "publication": [
+      "*Published in Adelaide in 2012–2017 (range as given; date unverified)"
+    ],
     "online_url": "",
     "journal_url": "",
     "slug": "266-266-uncle-martin-s-thrift-and-discount",
@@ -9405,7 +9539,7 @@
     "number": 276,
     "title": "Waterfall",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018"
+      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -9520,7 +9654,7 @@
     "number": 280,
     "title": "When…",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018"
+      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
@@ -9684,7 +9818,7 @@
     "number": 286,
     "title": "Word Map of a Cat on a Mat",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018"
+      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry around 2018 (date unverified)."
     ],
     "online_url": "",
     "journal_url": "",
