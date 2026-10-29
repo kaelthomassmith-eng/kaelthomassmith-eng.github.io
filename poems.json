@@ -1653,7 +1653,7 @@
   },
   {
     "number": 49,
-    "title": "City Lights *There are 574 total words in the intertitles of Chaplin’s magnum opus City Lights. This homage poem is constructed from those words alone.",
+    "title": "City Lights",
     "publication": [
       "*Published in UnLost, 27 July 2019.",
       "*Republished in Impspired, c. 2018."
@@ -2673,7 +2673,7 @@
   },
   {
     "number": 75,
-    "title": "DIARY X",
+    "title": "Diary X",
     "publication": [
       "*Published by Verse Virtual, September 2018.",
       "*Republished by Home Planet News Online."
@@ -3028,10 +3028,10 @@
     "number": 85,
     "title": "Do You Remember God?",
     "publication": [
-      "*published in Visions with Voices in 2014-2019.",
+      "*Published in Visions with Voices, Fall 2018.",
       "*republished in Time of Singing much later, c. 2026."
     ],
-    "online_url": "",
+    "online_url": "https://visionswithvoices.com/smith/index.html",
     "journal_url": "",
     "slug": "085-085-do-you-remember-god",
     "body": [
@@ -5307,7 +5307,7 @@
   },
   {
     "number": 162,
-    "title": "Kintsugi Kintsugi (金継ぎ,) : broken pottery is visibly repaired using lacquer and gold dust. Underpin fragility and make virtue of not concealing it. The objects are made stronger and more valuable by repair. The below uses this as a metaphor for the body.",
+    "title": "Kintsugi (金継ぎ)",
     "publication": [
       "*Published in Jonah in 2019.",
       "*Republished in Ginosko in 2026."
@@ -5881,7 +5881,8 @@
     "number": 178,
     "title": "MAD LIB LOVE LETTER",
     "publication": [
-      "*Published in Virgo Venus in 2026 / Republished in Voidspace in 2026."
+      "*Published in Virgo Venus in 2026.",
+      "*Republished in Voidspace in 2026."
     ],
     "online_url": "",
     "journal_url": "",
@@ -5948,7 +5949,8 @@
     "number": 180,
     "title": "Me",
     "publication": [
-      "*Published in Sincerely Magazine in 2018. / Republished in Ginosko in 2026."
+      "*Published in Sincerely Magazine in 2018.",
+      "*Republished in Ginosko in 2026."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6144,7 +6146,8 @@
     "number": 185,
     "title": "Moth to Light",
     "publication": [
-      "*Published in Internet Void in 2020 / Republished in 100 subtexts c. 2020."
+      "*Published in Internet Void in 2020.",
+      "*Republished in 100 subtexts c. 2020."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6178,7 +6181,8 @@
     "number": 186,
     "title": "My Mistress’ Eyes",
     "publication": [
-      "*Published in Written Tales in 2020 / Republished in Rush in 2026."
+      "*Published in Written Tales in 2020.",
+      "*Republished in Rush in 2026."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6345,7 +6349,8 @@
     "number": 191,
     "title": "Nauseas",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry c. 2018."
+      "*Published in Artvilla, poetry life and times in 2018.",
+      "*Republished in Ink Pantry c. 2018."
     ],
     "online_url": "https://www.artvilla.com/plt/category/poets/michael-t-smith/",
     "journal_url": "",
@@ -6365,7 +6370,8 @@
     "number": 192,
     "title": "New Year",
     "publication": [
-      "*Published in Southern Poetry Review in 2026 / Republished in Virginia Writers Project 2026."
+      "*Published in Southern Poetry Review in 2026.",
+      "*Republished in Virginia Writers Project 2026."
     ],
     "online_url": "",
     "journal_url": "",
@@ -6398,7 +6404,8 @@
     "number": 193,
     "title": "Notes on a Poem",
     "publication": [
-      "*Published in Modern Literature, 5 September 2020. / Republished in Agony Opera c. 2018."
+      "*Published in Modern Literature, 5 September 2020.",
+      "*Republished in Agony Opera c. 2018."
     ],
     "online_url": "https://modernliterature.org/poems-by-michael-t-smith/",
     "journal_url": "",
@@ -7381,7 +7388,8 @@
     "number": 222,
     "title": "Scrambled Eggs",
     "publication": [
-      "*Published in Peeking Cat in 2018 / Republished in Ginosko in 2018."
+      "*Published in Peeking Cat in 2018.",
+      "*Republished in Ginosko in 2018."
     ],
     "online_url": "",
     "journal_url": "",
@@ -8661,7 +8669,8 @@
     "number": 255,
     "title": "This is not a poem II",
     "publication": [
-      "*Published in Modern Literature, 5 September 2020 / Republished in Agony Opera in c. 2018."
+      "*Published in Modern Literature, 5 September 2020.",
+      "*Republished in Agony Opera in c. 2018."
     ],
     "online_url": "https://modernliterature.org/poems-by-michael-t-smith/",
     "journal_url": "",
@@ -8688,7 +8697,8 @@
     "number": 256,
     "title": "This poem will hit on you",
     "publication": [
-      "*Published in KNOT Magazine, Fall/Winter 2020 / Republished in Ginosko in 2026."
+      "*Published in KNOT Magazine, Fall/Winter 2020.",
+      "*Republished in Ginosko in 2026."
     ],
     "online_url": "https://kristendscott.wixsite.com/knot-magazine/copy-of-home?lang=tr",
     "journal_url": "",
@@ -8758,7 +8768,7 @@
   },
   {
     "number": 258,
-    "title": "To Bowie A poem about reflecting in reverence to Bowie, with at least ten allusions to him (not readily obvious) that is meant to be read through the codex of those allusions.",
+    "title": "To Bowie",
     "publication": [
       "*Published in Door is a Jar in 2019."
     ],
@@ -9548,7 +9558,8 @@
     "number": 276,
     "title": "Waterfall",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry c. 2018."
+      "*Published in Artvilla, poetry life and times in 2018.",
+      "*Republished in Ink Pantry c. 2018."
     ],
     "online_url": "https://www.artvilla.com/plt/category/poets/michael-t-smith/",
     "journal_url": "",
@@ -9635,7 +9646,8 @@
     "number": 279,
     "title": "When I See a Smirk (A Sonnet)",
     "publication": [
-      "*Published in Neologism in 2013-2018. / Republished in Ginosko in 2026."
+      "*Published in Neologism in 2013-2018.",
+      "*Republished in Ginosko in 2026."
     ],
     "online_url": "",
     "journal_url": "",
@@ -9663,7 +9675,8 @@
     "number": 280,
     "title": "When…",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry c. 2018."
+      "*Published in Artvilla, poetry life and times in 2018.",
+      "*Republished in Ink Pantry c. 2018."
     ],
     "online_url": "",
     "journal_url": "",
@@ -9827,7 +9840,8 @@
     "number": 286,
     "title": "Word Map of a Cat on a Mat",
     "publication": [
-      "*Published in Artvilla, poetry life and times in 2018 / Republished in Ink Pantry c. 2018."
+      "*Published in Artvilla, poetry life and times in 2018.",
+      "*Republished in Ink Pantry c. 2018."
     ],
     "online_url": "https://www.artvilla.com/plt/category/poets/michael-t-smith/",
     "journal_url": "",

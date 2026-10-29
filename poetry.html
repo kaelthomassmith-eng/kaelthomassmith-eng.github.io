@@ -132,8 +132,6 @@
         The archive includes poems first published in literary journals and magazines,
         as well as poems subsequently republished elsewhere.
         Publication years below are as recorded by the author unless a publisher link is given.
-        No poem is numbered 22 in the source document.
-        Haikus are grouped by magazine: <a href="poetry/haiku-asahi.html">Asahi Network</a>, <a href="poetry/haiku-children-churches-and-daddies.html">Children, Churches and Daddies</a>, <a href="poetry/haiku-haiku-journal.html">Haiku Journal</a>, <a href="poetry/haiku-haiku-universe.html">Haiku Universe</a>, <a href="poetry/haiku-bamboo-hut.html">The Bamboo Hut</a>, and <a href="poetry/haiku-three-line-poetry.html">Three Line Poetry</a>.
     </p>
 
     <section class="poem-of-day">
@@ -214,11 +212,29 @@ fetch('poems.json')
             });
         }
 
+        /*
+         * Archive display: the 20 individual haiku entries (numbers 114-133)
+         * are collapsed into six group entries, one per magazine.
+         * The full poems list is left unchanged for Poem of the Day.
+         */
+        const haikuGroups = [
+            { title: 'Haikus published in Asahi Network', slug: 'haiku-asahi', publication: ['Asahi Network, 2011\u20132013.'] },
+            { title: 'Haikus published in Children, Churches and Daddies', slug: 'haiku-children-churches-and-daddies', publication: ['Children, Churches and Daddies (cc&d), v304, December 2020.'] },
+            { title: 'Haikus published in Haiku Journal', slug: 'haiku-haiku-journal', publication: ['Haiku Journal (including June 2018).'] },
+            { title: 'Haikus published in Haiku Universe', slug: 'haiku-haiku-universe', publication: ['Haiku Universe, 2018.'] },
+            { title: 'Haikus published in The Bamboo Hut', slug: 'haiku-bamboo-hut', publication: ['The Bamboo Hut, No. 2 (2020).'] },
+            { title: 'Haikus published in Three Line Poetry', slug: 'haiku-three-line-poetry', publication: ['Three Line Poetry (accepted June 2018).'] },
+        ];
+
+        const archivePoems = poems
+            .filter(poem => !(poem.number >= 114 && poem.number <= 133))
+            .concat(haikuGroups);
+
         function renderList(filter = '') {
 
             const search = filter.trim().toLowerCase();
 
-            const filtered = poems.filter(poem => {
+            const filtered = archivePoems.filter(poem => {
 
                 const title = (poem.title || '').toLowerCase();
                 const publication = publicationText(poem).toLowerCase();
