@@ -1934,9 +1934,9 @@
   "number": 56,
   "title": "Conflict (sonnet)",
   "publication": [
-   "*Published in Rush in 2025."
+   "*Published in Rush in 2026."
   ],
-  "online_url": "",
+  "online_url": "https://www.therushmagazine.com/post/conflict",
   "journal_url": "",
   "slug": "056-056-conflict",
   "body": [
@@ -2098,7 +2098,7 @@
   "publication": [
    "*Published in Rush in 2026."
   ],
-  "online_url": "",
+  "online_url": "https://www.therushmagazine.com/post/cover-letter",
   "journal_url": "",
   "slug": "060-060-cover-letter",
   "body": [
@@ -3851,7 +3851,7 @@
   "publication": [
    "*Published in Rush in 2026."
   ],
-  "online_url": "",
+  "online_url": "https://www.therushmagazine.com/post/getting-better",
   "journal_url": "",
   "slug": "111-111-getting-better-sonnet",
   "body": [
@@ -6187,8 +6187,8 @@
    "*Published in Written Tales in 2020.",
    "*Republished in Rush in 2026."
   ],
-  "online_url": "https://writtentales.com/my-mistress-eyes/",
-  "journal_url": "",
+  "online_url": "https://www.therushmagazine.com/post/my-mistress-eyes",
+  "journal_url": "https://writtentales.com/my-mistress-eyes/",
   "slug": "186-186-my-mistress-eyes",
   "body": [
    "A Sonnet",
