@@ -132,6 +132,7 @@
         The archive includes poems first published in literary journals and magazines,
         as well as poems subsequently republished elsewhere.
         Publication years below are as recorded by the author unless a publisher link is given.
+        Titles beginning with A, An, or The are filed under the next word.
     </p>
 
     <section class="poem-of-day">
@@ -248,14 +249,18 @@ fetch('poems.json')
                 return;
             }
 
+            // Filing ignores a leading A, An, or The: e.g. "The Dawn Kills"
+            // is filed under D, "A Pastoral Woman" under P. Titles still
+            // display in full.
+            const filingTitle = title =>
+                (title || '').trim().replace(/^(a|an|the)\s+/i, '');
+
             const groups = {};
 
             filtered.forEach(poem => {
 
                 const firstLetter =
-                    (poem.title || '#')
-                        .trim()
-                        .charAt(0)
+                    (filingTitle(poem.title).charAt(0) || '#')
                         .toUpperCase();
 
                 if (!groups[firstLetter]) {
@@ -264,6 +269,11 @@ fetch('poems.json')
 
                 groups[firstLetter].push(poem);
             });
+
+            Object.values(groups).forEach(list =>
+                list.sort((a, b) =>
+                    filingTitle(a.title).localeCompare(
+                        filingTitle(b.title), undefined, { sensitivity: 'base' })));
 
             poemList.innerHTML = '';
 
