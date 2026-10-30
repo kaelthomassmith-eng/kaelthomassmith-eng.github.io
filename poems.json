@@ -3982,10 +3982,10 @@
     "title": "A pinhole of light",
     "publication": [
       "Asahi, Issue 5.",
-      "Also filed in Haiku Journal (see #127)."
+      "Also filed in Haiku Journal, Issue 5 (see #127)."
     ],
     "online_url": "",
-    "journal_url": "",
+    "journal_url": "https://haikujournal.org/issue.php?id=5&issue=5",
     "slug": "haiku-asahi",
     "body": [
       "A pinhole of light",
@@ -4177,9 +4177,9 @@
     "number": 126,
     "title": "As I write this line",
     "publication": [
-      "Haiku Journal."
+      "Haiku Journal, Issue 8."
     ],
-    "online_url": "",
+    "online_url": "https://haikujournal.org/issue.php?id=8&issue=8",
     "journal_url": "",
     "slug": "haiku-haiku-journal",
     "body": [
@@ -4196,9 +4196,9 @@
     "number": 127,
     "title": "A pinhole of light",
     "publication": [
-      "Haiku Journal — same haiku as #115 (Asahi, Issue 5)."
+      "Haiku Journal, Issue 5 — same haiku as #115 (Asahi, Issue 5)."
     ],
-    "online_url": "",
+    "online_url": "https://haikujournal.org/issue.php?id=5&issue=5",
     "journal_url": "",
     "slug": "haiku-haiku-journal",
     "body": [
